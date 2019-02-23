@@ -12,14 +12,19 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#dotted text {
+h1 {
     border-style: dotted;
-    border-bottom: 20px;
-    border-top: 20px;
-    border-left: 20px;
-    border-right: 20px;
+
 
 }
+
+#roundCorners {
+    border-radius: 50px;
+    border: 5px solid #73AD21;
+    padding: 50px; 
+    width: 100px;
+    height: 100px;  
+  }
 
 /*A photo with 20 pixel margins on each side [apprentince 02]*/
 #Images{
@@ -28,6 +33,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    float: right; /*master 03*/
 }
 .centered{
     position: relative;
