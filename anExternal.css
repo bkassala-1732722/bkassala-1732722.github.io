@@ -51,8 +51,7 @@ h1 {
 }
 
 /*A photo with 20 pixel margins on each side [apprentince 02]*/
-#largepic{
-    margin: 20px;
+#pic{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
