@@ -14,26 +14,6 @@ font-family: Arial, Helvetica, sans-serif;
 
 h1 {
     border-style: dotted;
-
-
-}
-
-#roundCorners {
-    border-radius: 50px;
-    border: 5px solid #73AD21;
-    padding: 50px; 
-    width: 100px;
-    height: 100px;  
-  }
-
-/*A photo with 20 pixel margins on each side [apprentince 02]*/
-#Images{
-    margin: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: right; /*master 03*/
 }
 
 #smallPic1{
@@ -52,10 +32,13 @@ h1 {
     float: right;
 
 }
+
 .centered{
     position: relative;
     text-align: center;
 }
+
+
 #centeredImg{
     width: 100%;
 }
@@ -66,3 +49,22 @@ h1 {
     transform: translate(-50%, -50%);
     color: red;
 }
+#roundCorners {
+    border-radius: 50px;
+    border: 5px solid #73AD21;
+    padding: 50px; 
+    width: 100px;
+    height: 100px;  
+  }
+
+/*A photo with 20 pixel margins on each side [apprentince 02]*/
+#Images{
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right; /*master 03*/
+}
+
+
