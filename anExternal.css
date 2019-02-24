@@ -35,6 +35,23 @@ h1 {
     margin-bottom: 20px;
     float: right; /*master 03*/
 }
+
+#smallPic1{
+
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+
+}
+
+#smallPic2{
+
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    float: right;
+
+}
 .centered{
     position: relative;
     text-align: center;
